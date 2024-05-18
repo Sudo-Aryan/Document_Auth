@@ -1,0 +1,32 @@
+.about-us {
+    /* Center the content horizontally (modified) */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60%;
+    height: 100%;
+    padding: 0 8rem;
+  }
+  
+  .about-us h1{
+    font-size: 2em;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    color: white;
+    /* margin-top: 170px;
+    padding-left:100px; */
+   
+  }
+   
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    margin-left: auto;
+  }

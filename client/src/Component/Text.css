@@ -1,0 +1,13 @@
+.body-text {
+    position: relative;
+    top: 25%;
+    color: white;
+    padding: 14%;
+    margin-right: 263px;
+    margin-left: 1px;
+
+}
+
+.body-text p {
+    font-size: 25px;
+}

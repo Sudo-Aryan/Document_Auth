@@ -1,0 +1,52 @@
+.Wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h3{
+    text-align: center;
+    width: 70%;
+    margin-bottom: 2.4rem;
+  }
+}
+.input-box input[type="text"]::placeholder {
+  color: #ccc; 
+}
+.input-field {
+  width: 300px; /* Set the width */
+  height: 40px; /* Set the height */
+  padding: 24px; /* Add padding for better appearance */
+  margin-bottom: 10px; /* Add margin between input fields */
+  background: transparent;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.Wrapper1 button {
+  width: 70%;
+  height: 45px;
+  background: white;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 1);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  margin-top: 0.2rem;
+
+}
+
+#file {
+  width: 300px; /* Set the width for file input */
+  height: 40px; /* Set the height for file input */
+  margin-bottom: 10px; /* Add margin between file input and button */
+  color: white;
+}
+button:hover {
+  background-color: #0056b3;
+}
+

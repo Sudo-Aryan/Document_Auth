@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.account{
+    margin-top: 500px;
+    color:white;
+    text-align: center;
+    padding-right: 952px;
+    margin-top: 20px
+
+}
+.account .text-center {
+    text-align: center;
+  }.popup {
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10%;
+    z-index: 10;
+    
+    /* Use Bootstrap classes for styling */
+    
+    align-items: center;
+    justify-content: center; 
+    
+   
+  }
+
+  
+  .popup button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    transition: 0.3s; /* Smooth hover effect */
+    width: 100%;
+  }
+  
+  /* .popup p {
+    margin-bottom: 10px;
+  } */
+  
+  /* .popup button {
+    background-color: #4CAF50; /* Green color for the button */
+    /* color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; */
+.popup button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  .popup p{
+font-weight: 100px;
+font-size: larger;
+  }
+  
+
+  

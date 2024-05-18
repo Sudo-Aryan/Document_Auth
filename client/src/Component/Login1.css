@@ -1,0 +1,89 @@
+.Login1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
+
+  .form{
+    margin-top: 10rem;
+    width: 100%;
+  }
+}
+
+.Login1 h1 {
+  margin-bottom: 0rem;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-right: 5rem;
+}
+.input-box1 input {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  color: white;
+}
+
+.input-box1 {
+  margin-top: 2.4rem;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+
+.input-box input::placeholder {
+  color: white;
+
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 60vh;
+  max-width: 30vw;
+}
+
+.Login1 label {
+  margin-bottom: 0.5rem;
+}
+
+.Login1 input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 80%;
+  border-radius: 40px;
+ 
+}
+
+.Login1 button {
+  margin-left: 4.5rem;
+  width: 50%;
+  height: 3rem;
+  background: white;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 1);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  margin-top: 1.6rem;
+}
+
+.Login1 button:hover {
+ background-color: #0056b3;
+}
+
+.account1{
+  color:white;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}

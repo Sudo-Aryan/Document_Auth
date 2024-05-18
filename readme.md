@@ -34,6 +34,7 @@ ganache
 truffle migrate
 npx nodemon
 ```
+Run ganache in seperate terminal and truffle/npx in other terminal.
 
 **For Frontend**
 While in the root of the project directory, run the following commands in terminal:
